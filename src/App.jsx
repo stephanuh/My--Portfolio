@@ -7,7 +7,7 @@ function App() {
   return(
     <>
     <Nav /> 
-    <main> 
+    <main className="mx-3"> 
       <Outlet />
     </main>
     <Footer />
@@ -16,5 +16,5 @@ function App() {
 };
 
 export default App;
-// add className="mx-3" in <main>???
+
 

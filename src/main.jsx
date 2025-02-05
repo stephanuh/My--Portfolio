@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 import Error from './pages/Error';
@@ -24,22 +24,22 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: './Portfolio',
+        path: '/Portfolio',
         element: <Portfolio />,
       },
       {
-        path: './Resume',
+        path: '/Resume',
         element: <Resume />,
       },
       {
-        path: './Contact',
+        path: '/Contact',
         element: <Contact />,
       },
     ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />,
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <RouterProvider router={router} />
 );
 
