@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-//import validator from 'validator';
 import '../assets/styles/Contact.css';
 
 export default function Contact() {

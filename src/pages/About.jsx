@@ -1,4 +1,5 @@
 export default function About() {
+    
     return (
         <div className="about-container">
             <h2 className="about-title">About Me</h2>
@@ -14,7 +15,7 @@ export default function About() {
                     I am a quick learner and I am always looking for ways to improve my skills. 
                     I am excited to work on new projects and I am always looking for new opportunities to grow as a developer.
                 </p>
-                <p>
+                 <p>
                 On my free time, I enjoy reading, writing, jam with my guitar, puzzles and playing video games.
                  I also enjoy spending time with my family and friends.
                   Im always looking for new ways to challenge myself and I am always looking for new ways to grow as a person.
@@ -24,8 +25,9 @@ export default function About() {
                     I am always open to new opportunities and I am always looking for new ways to grow as a developer.
                 </p>
                 <p>
-    Thank you for taking the time to read this. I look forward to hearing from you soon!
+                    Thank you for taking the time to read this. I look forward to hearing from you soon!
                </p>
+               <i className="bi bi-balloon-heart" ></i><i className="bi bi-balloon-heart" ></i><i className="bi bi-balloon-heart" ></i>
             </div>
         </div>
     );

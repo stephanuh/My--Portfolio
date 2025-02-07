@@ -1,0 +1,70 @@
+.resume-page {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FFFFF0; 
+    border-radius: 10px;
+} 
+
+.resume-container {
+    background-color: #5e548e;  
+    min-height: 100vh; 
+   padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #62517c; 
+}
+
+.resume-download {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    background-color: #822FAF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.download-btn:hover {
+    background-color: #EA698B;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+    color:#5e548e;
+}
+
+.resume-section h3 {
+    border-bottom: 2px solid #5e548e;
+    padding-bottom: 5px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #5e548e;
+    color: #e0b1cb;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.resume-item {
+    margin-bottom: 15px;
+}
