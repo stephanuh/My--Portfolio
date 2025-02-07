@@ -14,14 +14,14 @@ function Footer(){
                     <i className="bi bi-github"></i>
                     </a>
                     <a
-                    href="linked in profile"
+                    href="https://www.linkedin.com/in/stephanie-sosa-0b248434b/"
                     target="_blank"
                     rel="noopener noreferrer"
                     >
                     <i className="icon bi bi-linkedin"></i>
                     </a>
                     <a
-                    href="stackoverflow profile"
+                    href="https://stackoverflow.com/users/27560732/stephanie-s"
                     target="_blank"
                     rel="noopener noreferrer"
                     >
@@ -33,5 +33,3 @@ function Footer(){
     );
 };
 export default Footer;
-// ^^This is my LinkedIn try and create a linked in and update this
-//create a stack overflow account and update this
