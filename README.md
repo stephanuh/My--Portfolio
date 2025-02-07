@@ -26,7 +26,7 @@ To run the project locally, follow these steps:
 - Use **Contact** to sent me a message.
 
 
-![alt text](./public/images/Profile%20Porfolio.PNG)
+![alt text](/src/assets/img/Profile%20Porfolio.PNG)
 
 ## Credits
 [Bootstrap icons](https://icons.getbootstrap.com/) has been used so you can find the icons of github, stack overflow, and linkedin. It givese this site a personality.
