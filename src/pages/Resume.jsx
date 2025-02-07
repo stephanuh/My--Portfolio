@@ -26,12 +26,13 @@ export default function Resume() {
                 </ul>
             </section>
             <section className="resume-section">
-                <h3 style={{ color: "#2C3E50" }}>Work Experience</h3>
+                <h3 style={{ color: "#2C3E50" }}> Experience</h3>
                 <div className="resume-item">
-                    {/* <h4>Name of position - Company Name</h4> */}
-                    {/* <p><em> Add how long Ive worked there</em></p> */}
+                     <h4>Freelance Web Developer</h4> 
+                    <p><em>  [2024 - Present]</em></p> 
                     <ul style={{ color: "#2C3E50" }}>
-                        {/* <li>Description about the job</li> */}
+                         <p>Passionate and detail-oriented full-stack web developer with experience in HTML, CSS, JavaScript, React, Node.js, Express, and SQL. 
+                        Strong problem-solving skills and a quick learner, always seeking new opportunities to grow.</p> 
                     </ul>
                 </div>
             </section>
