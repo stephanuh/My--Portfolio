@@ -17,6 +17,12 @@
   --success-color: #A1FFCE; /* Light green glow */
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* ---Body settings--- */
 
 body{
@@ -82,7 +88,7 @@ p{
 
 .navbar {
   background-color: var(--dark-color);
-  padding: 15px;
+  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,7 +96,6 @@ p{
 }
 .navbar-name{
    color: var(--content-light-color); 
-  /* font-size: 24px; */
   font-weight: bold;
   font-style: italic;
 }
@@ -104,7 +109,7 @@ p{
 
 .nav-link {
   color: var(--content-color);
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -129,7 +134,7 @@ p{
 
 .footer {
   background-color: var(--dark-color);
-  padding: 20px 0;
+  padding: 25px 0;
   text-align: center;
   border-top: 2px solid var(--accent-color);
 }
