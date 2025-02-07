@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import profileImg from "../assets/img/profilePic.PNG";
 
 export default function About() {
     useEffect(() => {
@@ -9,7 +10,7 @@ export default function About() {
         <div className="about-container">
             <h2 className="about-title">About Me</h2>
             <div className="about-image">
-                <img src="src/assets/img/profilePic.PNG" alt="Profile" />
+                <img src={profileImg} alt="Profile" />
             </div>
             <div className="about-text">
                 <p>
